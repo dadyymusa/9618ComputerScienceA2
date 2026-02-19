@@ -61,7 +61,7 @@ class BinarySearchTree:
             return RightCount + 1
           
 
-          
+
 Familia = BinarySearchTree()
 Familia.insert(100)
 Familia.insert(150)
