@@ -6,7 +6,7 @@
 def ReadData():
     try:
         Colors = []
-        File = open('./paper-solving/9618_w24_41/Data.txt')
+        File = open('./9618_w24_41/Data.txt')
         Colors = File.read().split("\n")
         File.close()   
         return Colors
@@ -60,4 +60,5 @@ def Bubble(lst):
 
 
 Bubble(arr)
+
 print(FormatArray(arr))

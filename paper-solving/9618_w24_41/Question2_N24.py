@@ -50,13 +50,15 @@ Course = []
 
 for i in range(4):
     while True:
-        NewHeight = int(input(f"{i}. Height Value: "))
+        NewHeight = int(input(f"{i + 1}. Height Value: "))
         if NewHeight >= 70 and NewHeight <= 180:
             break
         print("Height should be between 70 to 180 inclusive")
 
     while True:
-        NewRisk = int(input(f"{i}. Risk Value: "))
+        NewRisk = int(input(f"{i + 1}. Risk Value: "))
         if NewRisk >= 1 and NewRisk <= 5:
             break
         print("Risk should be between 1 to 5 inclusive")
+
+# 2d
