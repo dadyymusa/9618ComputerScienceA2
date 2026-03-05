@@ -1,7 +1,5 @@
 # qp - https://bestexamhelp.com/exam/cambridge-international-a-level/computer-science-9618/2024/9618_w24_qp_41.pdf
-# ms - https://bestexamhelp.com/exam/cambridge-international-a-level/computer-science-9618/2024/9618_w24_ms_41.pdf
 
-# Question1_N24
 #  1a
 def ReadData():
     try:
